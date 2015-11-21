@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using FNHMVC.CommandProcessor.Command;
 
-namespace FNHMVC.Model.Commands
+namespace TORNEOS.Model.Commands
 {
     public class ChangePasswordCommand : ICommand
     {

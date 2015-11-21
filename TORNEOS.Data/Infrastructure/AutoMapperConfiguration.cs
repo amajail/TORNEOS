@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using FNHMVC.Model;
-using FNHMVC.Data.Mappings;
+using TORNEOS.Model;
+using TORNEOS.Data.Mappings;
 using AutoMapper;
 
-namespace FNHMVC.Data.Infrastructure
+namespace TORNEOS.Data.Infrastructure
 {
     public static class AutoMapperConfiguration
     {

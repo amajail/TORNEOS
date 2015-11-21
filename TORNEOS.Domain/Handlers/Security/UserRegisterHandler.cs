@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using FNHMVC.CommandProcessor.Command;
-using FNHMVC.Model.Commands;
-using FNHMVC.Data.Repositories;
-using FNHMVC.Data.Infrastructure;
-using FNHMVC.Model;
+using TORNEOS.Model.Commands;
+using TORNEOS.Data.Repositories;
+using TORNEOS.Data.Infrastructure;
+using TORNEOS.Model;
 using AutoMapper;
 
-namespace FNHMVC.Domain.Handlers.Security
+namespace TORNEOS.Domain.Handlers.Security
 {
     public class UserRegisterHandler : ICommandHandler<UserRegisterCommand>
     {

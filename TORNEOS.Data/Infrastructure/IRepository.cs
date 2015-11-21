@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Linq.Expressions;
 
-namespace FNHMVC.Data.Infrastructure
+namespace TORNEOS.Data.Infrastructure
 {
     public interface IRepository<T> where T : class
     {

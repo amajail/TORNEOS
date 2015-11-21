@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using FNHMVC.Data.Infrastructure;
-using FNHMVC.Model;
+using TORNEOS.Data.Infrastructure;
+using TORNEOS.Model;
 using NHibernate;
 
-namespace FNHMVC.Data.Repositories
+namespace TORNEOS.Data.Repositories
 {
     public class UserRepository : RepositoryBase<User>, IUserRepository
     {

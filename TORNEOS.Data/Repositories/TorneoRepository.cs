@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using FNHMVC.Data.Infrastructure;
+using TORNEOS.Data.Infrastructure;
 using TORNEOS.Model;
 using NHibernate;
 

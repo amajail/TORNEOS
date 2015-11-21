@@ -6,7 +6,7 @@ using NHibernate;
 using NHibernate.Linq;
 using System.Data;
 
-namespace FNHMVC.Data.Infrastructure
+namespace TORNEOS.Data.Infrastructure
 {
     public class UnitOfWork : IUnitOfWork
     {

@@ -5,9 +5,9 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using FNHMVC.CommandProcessor.Dispatcher;
-using FNHMVC.Data.Repositories;
+using TORNEOS.Data.Repositories;
 using AutoMapper;
-using FNHMVC.Model;
+using TORNEOS.Model;
 using FNHMVC.Web.Core.Models;
 
 namespace FNHMVC.Web.Core.Authentication

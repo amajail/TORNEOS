@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using FNHMVC.CommandProcessor.Command;
-using FNHMVC.Model;
+using TORNEOS.Model;
 
-namespace FNHMVC.Model.Commands
+namespace TORNEOS.Model.Commands
 {
     public class UserRegisterCommand : ICommand
     {

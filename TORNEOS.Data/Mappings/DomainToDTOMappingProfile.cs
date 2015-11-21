@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
-using FNHMVC.Model;
+using TORNEOS.Model;
 
-namespace FNHMVC.Data.Mappings
+namespace TORNEOS.Data.Mappings
 {
     public class DomainToDTOMappingProfile : Profile
     {
@@ -17,8 +17,7 @@ namespace FNHMVC.Data.Mappings
 
         protected override void Configure()
         {
-            Mapper.CreateMap<Category, DTOCategory>();
-            Mapper.CreateMap<Expense, DTOExpense>();
+            Mapper.CreateMap<Torneo, DTOTorneo>();
             Mapper.CreateMap<User, DTOUser>();
         }
     }

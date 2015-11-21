@@ -153,17 +153,17 @@
       <Project>{717e9b90-bde5-4b20-846f-622928581fc9}</Project>
       <Name>FNHMVC.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\FNHMVC.Data\FNHMVC.Data.csproj">
-      <Project>{991528ea-9d75-41fd-888e-cc4b7f8c96f7}</Project>
-      <Name>FNHMVC.Data</Name>
+    <ProjectReference Include="..\TORNEOS.Data\TORNEOS.Data.csproj">
+      <Project>{920e9405-2922-4faf-b851-ca748eac537e}</Project>
+      <Name>TORNEOS.Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\FNHMVC.Domain\FNHMVC.Domain.csproj">
-      <Project>{4f173b2d-0d64-47ca-9469-c477645c27e4}</Project>
-      <Name>FNHMVC.Domain</Name>
+    <ProjectReference Include="..\TORNEOS.Domain\TORNEOS.Domain.csproj">
+      <Project>{6e77bfd3-76a6-4d30-a4b8-70a852ff101e}</Project>
+      <Name>TORNEOS.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\FNHMVC.Model\FNHMVC.Model.csproj">
-      <Project>{36384326-e85d-4753-8019-f99d65af0611}</Project>
-      <Name>FNHMVC.Model</Name>
+    <ProjectReference Include="..\TORNEOS.Model\TORNEOS.Model.csproj">
+      <Project>{f996d24b-249e-4fe9-962a-e6e1cbf5b241}</Project>
+      <Name>TORNEOS.Model</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

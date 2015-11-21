@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using FNHMVC.Data.Repositories;
+using TORNEOS.Data.Repositories;
 using FNHMVC.Core.Common;
 using FNHMVC.CommandProcessor.Command;
-using FNHMVC.Model;
-using FNHMVC.Model.Commands;
+using TORNEOS.Model;
+using TORNEOS.Model.Commands;
 
-namespace FNHMVC.Domain.Handlers
+namespace TORNEOS.Domain.Handlers
 {
     public class CanChangePassword : IValidationHandler<ChangePasswordCommand>
     {

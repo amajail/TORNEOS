@@ -6,9 +6,9 @@ using NHibernate;
 using FluentNHibernate;
 using FluentNHibernate.Cfg;
 using FluentNHibernate.Cfg.Db;
-using FNHMVC.Data.Mappings;
+using TORNEOS.Data.Mappings;
 
-namespace FNHMVC.Data.Infrastructure
+namespace TORNEOS.Data.Infrastructure
 {
     static public class ConnectionHelper
     {

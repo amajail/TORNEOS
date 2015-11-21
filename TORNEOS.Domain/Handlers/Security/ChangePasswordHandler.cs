@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using FNHMVC.Data.Repositories;
-using FNHMVC.Data.Infrastructure;
+using TORNEOS.Data.Repositories;
+using TORNEOS.Data.Infrastructure;
 using FNHMVC.CommandProcessor.Command;
-using FNHMVC.Model;
-using FNHMVC.Model.Commands;
+using TORNEOS.Model;
+using TORNEOS.Model.Commands;
 
-namespace FNHMVC.Domain.Handlers.Security
+namespace TORNEOS.Domain.Handlers.Security
 {
     public class ChangePasswordHandler : ICommandHandler<ChangePasswordCommand>
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using NHibernate;
 
-namespace FNHMVC.Data.Infrastructure
+namespace TORNEOS.Data.Infrastructure
 {
     public interface IUnitOfWork : IDisposable
     {

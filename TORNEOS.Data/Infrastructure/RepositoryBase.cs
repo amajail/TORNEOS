@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Data;
 using System.Linq.Expressions;
-using FNHMVC.Data;
+using TORNEOS.Data;
 using NHibernate;
 using NHibernate.Linq;
 
 
-namespace FNHMVC.Data.Infrastructure
+namespace TORNEOS.Data.Infrastructure
 {
     public abstract class RepositoryBase<T> where T : class
     {

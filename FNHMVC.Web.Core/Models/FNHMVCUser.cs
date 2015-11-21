@@ -7,7 +7,7 @@ using System.Security.Principal;
 using Microsoft.AspNet.Identity;
 using System.Threading.Tasks;
 using System.Security.Claims;
-using FNHMVC.Model;
+using TORNEOS.Model;
 
 namespace FNHMVC.Web.Core.Models
 { 

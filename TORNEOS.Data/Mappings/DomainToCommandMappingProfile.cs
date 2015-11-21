@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
-using FNHMVC.Model;
-using FNHMVC.Model.Commands;
+using TORNEOS.Model;
+using TORNEOS.Model.Commands;
 
-namespace FNHMVC.Data
+namespace TORNEOS.Data
 {
     public class DomainToCommandMappingProfile : Profile
     {
@@ -18,10 +18,8 @@ namespace FNHMVC.Data
 
         protected override void Configure()
         {
-            Mapper.CreateMap<Category, CreateOrUpdateCategoryCommand>();
-            Mapper.CreateMap<Category, DeleteCategoryCommand>();
-            Mapper.CreateMap<Expense, CreateOrUpdateExpenseCommand>();
-            Mapper.CreateMap<Expense, DeleteExpenseCommand>();
+            Mapper.CreateMap<Torneo, CreateOrUpdateTorneoCommand>();
+            Mapper.CreateMap<Torneo, DeleteTorneoCommand>();
             Mapper.CreateMap<User, UserRegisterCommand>().ForMember(x => x.Password, o => o.Ignore());
         }
     }

@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using FNHMVC.Model.Commands;
+using TORNEOS.Model.Commands;
 using FNHMVC.CommandProcessor.Command;
-using FNHMVC.Data.Infrastructure;
-using FNHMVC.Data.Repositories;
+using TORNEOS.Data.Infrastructure;
+using TORNEOS.Data.Repositories;
 using FNHMVC.Core.Common;
-using FNHMVC.Model;
+using TORNEOS.Model;
 
-namespace FNHMVC.Domain.Handlers
+namespace TORNEOS.Domain.Handlers
 {
     public class CanAddUser : IValidationHandler<UserRegisterCommand>
     {

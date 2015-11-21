@@ -32,6 +32,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,9 +42,10 @@
   <ItemGroup>
     <Compile Include="Commands\Security\ChangePasswordCommand.cs" />
     <Compile Include="Commands\Security\UserRegisterCommand.cs" />
+    <Compile Include="Commands\Torneo\CreateOrUpdateTorneoCommand.cs" />
+    <Compile Include="Commands\Torneo\DeleteTorneoCommand.cs" />
     <Compile Include="DataTransferObjects\DTOTorneo.cs" />
     <Compile Include="DataTransferObjects\DTOUser.cs" />
-    <Compile Include="Entities\Entidad.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Entities\Torneo.cs" />
