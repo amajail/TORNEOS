@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNHMVC.Core", "FNHMVC.Core\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TORNEOS.Data", "TORNEOS.Data\TORNEOS.Data.csproj", "{920E9405-2922-4FAF-B851-CA748EAC537E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TORNEOS.Web.API", "TORNEOS.Web.API\TORNEOS.Web.API.csproj", "{D5A19109-1D05-4FEF-9ECA-65BB1A721869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNHMVC.Web.Core", "FNHMVC.Web.Core\FNHMVC.Web.Core.csproj", "{EE9F6851-8D21-49CA-B122-83C61B44EF28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{920E9405-2922-4FAF-B851-CA748EAC537E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{920E9405-2922-4FAF-B851-CA748EAC537E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{920E9405-2922-4FAF-B851-CA748EAC537E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5A19109-1D05-4FEF-9ECA-65BB1A721869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A19109-1D05-4FEF-9ECA-65BB1A721869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A19109-1D05-4FEF-9ECA-65BB1A721869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A19109-1D05-4FEF-9ECA-65BB1A721869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE9F6851-8D21-49CA-B122-83C61B44EF28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE9F6851-8D21-49CA-B122-83C61B44EF28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE9F6851-8D21-49CA-B122-83C61B44EF28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE9F6851-8D21-49CA-B122-83C61B44EF28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
