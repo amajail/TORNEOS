@@ -8,7 +8,7 @@ using System.Collections.Specialized;
 using System.Runtime.Serialization;
 using FNHMVC.Core.Common;
 
-namespace FNHMVC.Model
+namespace TORNEOS.Model
 {
 
     public class User

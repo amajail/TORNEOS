@@ -41,9 +41,12 @@
   <ItemGroup>
     <Compile Include="Commands\Security\ChangePasswordCommand.cs" />
     <Compile Include="Commands\Security\UserRegisterCommand.cs" />
+    <Compile Include="DataTransferObjects\DTOTorneo.cs" />
     <Compile Include="DataTransferObjects\DTOUser.cs" />
+    <Compile Include="Entities\Entidad.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Entities\Torneo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FNHMVC.CommandProcessor\FNHMVC.CommandProcessor.csproj">
@@ -54,6 +57,9 @@
       <Project>{717e9b90-bde5-4b20-846f-622928581fc9}</Project>
       <Name>FNHMVC.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Entities\ClassDiagramTorneos.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

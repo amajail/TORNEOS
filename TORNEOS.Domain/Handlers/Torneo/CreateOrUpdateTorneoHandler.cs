@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TORNEOS.Domain
+namespace TORNEOS.Domain.Handlers.Torneo
 {
-    public class Class1
+    class CreateOrUpdateTorneoHandler
     {
     }
 }

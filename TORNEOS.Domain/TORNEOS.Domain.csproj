@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper">
+      <HintPath>..\packages\AutoMapper.4.1.1\lib\net45\AutoMapper.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -39,8 +42,38 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Handlers\Security\CanAddUser.cs" />
+    <Compile Include="Handlers\Security\CanChangePassword.cs" />
+    <Compile Include="Handlers\Security\ChangePasswordHandler.cs" />
+    <Compile Include="Handlers\Security\UserRegisterHandler.cs" />
+    <Compile Include="Handlers\Torneo\CreateOrUpdateTorneoHandler.cs" />
+    <Compile Include="Handlers\Torneo\DeleteTorneoHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FNHMVC.CommandProcessor\FNHMVC.CommandProcessor.csproj">
+      <Project>{90b8bd02-a12a-4618-8929-c68e5035f179}</Project>
+      <Name>FNHMVC.CommandProcessor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FNHMVC.Core\FNHMVC.Core.csproj">
+      <Project>{717e9b90-bde5-4b20-846f-622928581fc9}</Project>
+      <Name>FNHMVC.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TORNEOS.Data\TORNEOS.Data.csproj">
+      <Project>{920e9405-2922-4faf-b851-ca748eac537e}</Project>
+      <Name>TORNEOS.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TORNEOS.Model\TORNEOS.Model.csproj">
+      <Project>{f996d24b-249e-4fe9-962a-e6e1cbf5b241}</Project>
+      <Name>TORNEOS.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
