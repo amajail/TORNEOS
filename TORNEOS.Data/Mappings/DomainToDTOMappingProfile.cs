@@ -10,10 +10,10 @@ namespace TORNEOS.Data.Mappings
 {
     public class DomainToDTOMappingProfile : Profile
     {
-        public override string ProfileName
-        {
-            get { return "DomainToDTOMappingProfile"; }
-        }
+        //public override string ProfileName
+        //{
+        //    get { return "DomainToDTOMappingProfile"; }
+        //}
 
         protected override void Configure()
         {

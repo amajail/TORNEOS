@@ -5,13 +5,13 @@ using System.Text;
 using NHibernate;
 using NHibernate.Tool.hbm2ddl;
 
-namespace FNHMVC.Data.SchemaTool
+namespace TORNEOS.Data.SchemaTool
 {
     public static class SchemaTool
     {
         public static void ValidateSchema(string ConnString)
         {
-            FNHMVC.Data.Infrastructure.ConnectionHelper.GetConfiguration(ConnString).ExposeConfiguration(cfg =>
+            TORNEOS.Data.Infrastructure.ConnectionHelper.GetConfiguration(ConnString).ExposeConfiguration(cfg =>
             {
                 var schemaValidate = new NHibernate.Tool.hbm2ddl.SchemaValidator(cfg);
                 schemaValidate.Validate();
@@ -20,7 +20,7 @@ namespace FNHMVC.Data.SchemaTool
 
         public static void CreatSchema(string OutputFile, string ConnString)
         {
-            FNHMVC.Data.Infrastructure.ConnectionHelper.GetConfiguration(ConnString).ExposeConfiguration(cfg =>
+            TORNEOS.Data.Infrastructure.ConnectionHelper.GetConfiguration(ConnString).ExposeConfiguration(cfg =>
             {
                 var schemaExport = new NHibernate.Tool.hbm2ddl.SchemaExport(cfg);
                 if (!string.IsNullOrEmpty(OutputFile)) schemaExport.SetOutputFile(OutputFile);
@@ -31,7 +31,7 @@ namespace FNHMVC.Data.SchemaTool
 
         public static void UpdateSchema(string ConnString)
         {
-            FNHMVC.Data.Infrastructure.ConnectionHelper.GetConfiguration(ConnString).ExposeConfiguration(cfg =>
+            TORNEOS.Data.Infrastructure.ConnectionHelper.GetConfiguration(ConnString).ExposeConfiguration(cfg =>
             {
                 var schemaUpdate = new NHibernate.Tool.hbm2ddl.SchemaUpdate(cfg);
                 schemaUpdate.Execute(false, true);

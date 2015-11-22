@@ -11,10 +11,10 @@ namespace TORNEOS.Data
 {
     public class DomainToCommandMappingProfile : Profile
     {
-        public override string ProfileName
-        {
-            get { return "DomainToCommandMappingProfile"; }
-        }
+        //public override string ProfileName
+        //{
+        //    get { return "DomainToCommandMappingProfile"; }
+        //}
 
         protected override void Configure()
         {
