@@ -29,5 +29,7 @@ namespace TORNEOS.Web.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<TORNEOS.Model.Torneo> Torneos { get; set; }
     }
 }
